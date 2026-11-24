@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python bytecode and caches
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+huggingface/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+
+# Candidate uploaded files
+uploads/
+*.pdf
+
+# Temporary files & logs
+*.tmp
+*.log
+*.swp
+*.bak
+
+# Local development test suites and verification scripts
+test_*.py
+cleanup.py
+verify.py
+tests/
+scratch/

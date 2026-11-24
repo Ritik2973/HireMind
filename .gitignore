@@ -1,0 +1,49 @@
+# Node modules & frontend build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+
+# Python & Virtual Environments
+__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+backend/venv/
+env/
+.venv/
+
+# Environment variable files (secrets)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env.local
+frontend/.env.production
+frontend/.env.*.local
+
+# Candidate uploaded files & storage
+uploads/
+backend/uploads/
+*.pdf
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Model cache, logs, and temporary files
+.cache/
+huggingface/
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
